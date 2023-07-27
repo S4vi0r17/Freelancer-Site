@@ -104,12 +104,14 @@ h3 {
     color: var(--white);
     text-decoration: none;
     font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
     padding: 1rem;
 }
 
 .main-navigation a:hover {
     background-color: var(--primary);
-    color: var(--dark);
+    color: #40658B;
 }
 
 .wallpaper {
