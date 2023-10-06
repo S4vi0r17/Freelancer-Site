@@ -382,7 +382,7 @@
 
       <section>
         <h2>Contact</h2>
-        <form class="form" action="">
+        <form class="form" action="https://formsubmit.co/gbp17@outlook.com" method="POST">
           <fieldset>
             <legend>Contact me by filling out all the fields.</legend>
 
@@ -394,6 +394,8 @@
                     class="input-text"
                     placeholder="e.g. John Doe"
                     type="text"
+                    name="name"
+                    required
                 /></label>
               </div>
               <div class="field">
@@ -403,6 +405,8 @@
                     class="input-text"
                     placeholder="e.g. 555-123-4567"
                     type="number"
+                    name="cellphone"
+                    required
                 /></label>
               </div>
               <div class="field">
@@ -411,6 +415,8 @@
                     class="input-text"
                     placeholder="e.g. email@example.com"
                     type="email"
+                    name="email"
+                    required
                 /></label>
               </div>
               <div class="field">
@@ -419,10 +425,10 @@
                   <textarea
                     placeholder="e.g. Hi, I'd like to know more about..."
                     class="input-text"
-                    name=""
-                    id=""
+                    name="message"
                     cols="30"
                     rows="10"
+                    required
                   ></textarea>
                 </label>
               </div>
@@ -433,8 +439,6 @@
                 class="button w-100"
                 value="Submit"
                 type="submit"
-                name=""
-                id=""
               />
               <!--div creo-->
             </div>
