@@ -1,0 +1,27 @@
+@use "variables" as v;
+
+.button {
+  background-color: v.$secondary;
+  color: v.$white;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  /*700*/
+  border-radius: 0.7rem;
+  width: 70%;
+  text-align: center;
+  border: none;
+  &:hover {
+    background-color: #822f3c;
+    color: #e4d4c6;
+    cursor: pointer;
+  }
+  @media (min-width: 768px) {
+    width: auto;
+  }
+}
+
+
