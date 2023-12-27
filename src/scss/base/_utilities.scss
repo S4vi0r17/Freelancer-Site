@@ -1,25 +1,26 @@
 @use "variables" as v;
 
 .w-100 {
-  width: 100%;
-  @media (min-width: 768px) {
-    width: auto;
-  }
+    width: 100%;
+
+    @media (min-width: 768px) {
+        width: auto;
+    }
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .align-right {
-  justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .b-nav {
-  background-color: v.$secondary;
+    background-color: v.$secondary;
 }
 
 .container {
-  max-width: 100rem;
-  margin: 0 auto;
+    max-width: 100rem;
+    margin: 0 auto;
 }
