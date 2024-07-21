@@ -1,0 +1,42 @@
+---
+import WebDesign from '../svg/WebDesign.astro';
+import DesktopApplications from '../svg/DesktopApplications.astro';
+import EcommerceSolutions from '../svg/EcommerceSolutions.astro';
+import LinuxCustomization from '../svg/LinuxCustomization.astro';
+import Service from './Service.astro';
+
+const servicesData = [
+  {
+    title: 'Web Design',
+    svg: WebDesign,
+    description: 'Integer lobortis, libero pretium porttitor maximus...',
+  },
+  {
+    title: 'Desktop Applications',
+    svg: DesktopApplications,
+    description: 'Etiam ut enim ante. Fusce varius ac faucibus gravida...',
+  },
+  {
+    title: 'E-commerce Solutions',
+    svg: EcommerceSolutions,
+    description: 'Suspendisse potenti. Sed quis eros eget diam dictum...',
+  },
+  {
+    title: 'Linux Customization',
+    svg: LinuxCustomization,
+    description: 'Nulla facilisi. Ut sed orci nec dolor tincidunt...',
+  },
+];
+---
+
+<div class="services">
+  {
+    servicesData.map((service) => (
+      <Service
+        title={service.title}
+        description={service.description}
+        svg={service.svg}
+      />
+    ))
+  }
+</div>;

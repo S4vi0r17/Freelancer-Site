@@ -1,0 +1,20 @@
+---
+import type { JSX } from 'astro/jsx-runtime';
+
+interface Props {
+  title: string;
+  description: string;
+  // svg: () => JSX.Element;
+  svg: JSX.Element;
+}
+
+const { title, description, svg: SvgComponent } = Astro.props;
+---
+
+<section class="service">
+  <h3>{title}</h3>
+  <div class="icons">
+    <SvgComponent />
+  </div>
+  <p>{description}</p>
+</section>
