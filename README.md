@@ -1,6 +1,5 @@
 # Freelancer-Site
-<p align="center">
-    <img src="src/img/mockup.png" alt="imagen" width="auto">
-</p>
 
-**You can visit it**  [here](https://freelancergbp.netlify.app/).
+<div align="center">
+    <img src="./public/img/mockup.png" alt="Freelancer-Site image" width="auto">
+</div>
